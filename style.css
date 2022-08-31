@@ -154,12 +154,6 @@ footer p a{
 }
 
 @media (max-width: 400px){
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 100vh;
-    }
 
     .profilePhoto {
         width: 100px;
