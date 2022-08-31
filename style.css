@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -130,6 +137,7 @@
 }
 
 footer {
+    margin-top: auto;
     margin-bottom: 24px;
 }
 
@@ -153,7 +161,30 @@ footer p a{
 }
 
 @media (max-width: 400px){
+    .profilePhoto {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .location {
+        font-size: 10px;
+    }
+
     .info {
         column-gap: 12px;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        width: 78px;
+        height: 52px;
+    }
+
+    .number, .text {
+        font-size: 12px;
     }
 }
