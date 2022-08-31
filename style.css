@@ -151,3 +151,9 @@ footer p a{
         padding: 0 5%;
     }
 }
+
+@media (max-width: 400px){
+    .info {
+        column-gap: 12px;
+    }
+}
